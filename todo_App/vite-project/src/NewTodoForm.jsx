@@ -15,11 +15,8 @@ export function NewTodoForm({ onSubmit }) {
 
   return (
     <form onSubmit={handleSubmit} className="new-item-form">
-       <div className="login">
-         <a href="/login"><button className="btn" style={{backgroundColor:'white',position:'absolute', right:'20px'}}>Login</button></a>
-         <a href=""><button className="btn" style={{backgroundColor:'white',position:'absolute', left:'20px'}}>Signup</button></a>
-
-        </div>
+      
+      
       <div className="form-row">
        
         <label htmlFor="item">New Item</label>
