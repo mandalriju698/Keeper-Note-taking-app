@@ -11,3 +11,5 @@ after install all dependency by npm i command and to run the application the com
 
 4. Rendering lists in React requires unique keys for each element to optimize performance and avoid bugs. Immutable state should be maintained, and functions should be passed as event listeners to ensure proper functionality.
 5.Demonstrates passing props, using useState and useEffect hooks, and emphasizing the necessity of placing hooks at the top of the file for React components.
+
+
